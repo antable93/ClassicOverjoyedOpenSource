@@ -1,0 +1,1194 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net461/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Wisej-3/3.5.5": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "Wisej-3-RibbonBar/3.5.5": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.5"
+        },
+        "compile": {
+          "lib/net48/Wisej.Web.Ext.RibbonBar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Web.Ext.RibbonBar.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net8.0-windows10.0.19041": {
+      "EmbedIO/3.5.2": {
+        "type": "package",
+        "dependencies": {
+          "Unosquare.Swan.Lite": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/EmbedIO.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/EmbedIO.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Managed.System.Drawing/3.5.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Drawing.Managed.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Managed.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/2.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "7.0.0",
+          "System.Security.Cryptography.ProtectedData": "7.0.0",
+          "System.Security.Permissions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Diagnostics.EventLog/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          },
+          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "aliases": "sdc",
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Resources.Extensions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Resources.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Resources.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Runtime.Caching/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Runtime.Caching.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Runtime.Caching.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Runtime.Caching.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Windows.Extensions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Security.Permissions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Security.Permissions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Windows.Extensions/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Windows.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Unosquare.Swan.Lite/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Swan.Lite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swan.Lite.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Wisej-3/3.5.5": {
+        "type": "package",
+        "dependencies": {
+          "EmbedIO": "3.5.2",
+          "Managed.System.Drawing": "3.5.5",
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.IO.RecyclableMemoryStream": "2.3.2",
+          "System.Resources.Extensions": "7.0.0",
+          "System.Runtime.Caching": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/cs/Wisej.Framework.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net7.0-windows10.0.19041.0/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net7.0-windows10.0.19041.0/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net7.0-windows10.0.19041.0/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net7.0-windows10.0.19041.0/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net7.0-windows10.0.19041.0/ja/Wisej.Framework.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net7.0-windows10.0.19041.0/ko/Wisej.Framework.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net7.0-windows10.0.19041.0/pl/Wisej.Framework.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net7.0-windows10.0.19041.0/pt-BR/Wisej.Framework.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net7.0-windows10.0.19041.0/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net7.0-windows10.0.19041.0/ru/Wisej.Framework.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net7.0-windows10.0.19041.0/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net7.0-windows10.0.19041.0/zh-Hans/Wisej.Framework.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net7.0-windows10.0.19041.0/zh-Hant/Wisej.Framework.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Wisej-3-RibbonBar/3.5.5": {
+        "type": "package",
+        "dependencies": {
+          "Wisej-3": "3.5.5"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Wisej.Web.Ext.RibbonBar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Wisej.Web.Ext.RibbonBar.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmbedIO/3.5.2": {
+      "sha512": "YU4j+3XvuO8/VPkNf7KWOF1TpMhnyVhXnPsG1mvnDhTJ9D5BZOFXVDvCpE/SkQ1AJ0Aa+dXOVSW3ntgmLL7aJg==",
+      "type": "package",
+      "path": "embedio/3.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "embedio.3.5.2.nupkg.sha512",
+        "embedio.nuspec",
+        "lib/netstandard2.0/EmbedIO.dll",
+        "lib/netstandard2.0/EmbedIO.pdb",
+        "lib/netstandard2.0/EmbedIO.xml"
+      ]
+    },
+    "Managed.System.Drawing/3.5.5": {
+      "sha512": "STlYsGA+U5DgQQnUlu1QoFVMPpRwW78NwICKeQ4cTXytK7Jxo9i2OeBrcmJUKbSgdgz+AhfBwNKnCujbIyQ6ug==",
+      "type": "package",
+      "path": "managed.system.drawing/3.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net7.0/System.Drawing.Managed.dll",
+        "managed.system.drawing.3.5.5.nupkg.sha512",
+        "managed.system.drawing.nuspec"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.IO.RecyclableMemoryStream/2.3.2": {
+      "sha512": "Oh1qXXFdJFcHozvb4H6XYLf2W0meZFuG0A+TfapFPj9z5fd4vxiARGEhAaLj/6XWQaMYIv4SH/9Q6H78Hw0E2Q==",
+      "type": "package",
+      "path": "microsoft.io.recyclablememorystream/2.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/net462/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netcoreapp2.1/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.xml",
+        "microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512",
+        "microsoft.io.recyclablememorystream.nuspec"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "sha512": "2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/7.0.0": {
+      "sha512": "WvRUdlL1lB0dTRZSs5XcQOd5q9MYNk90GkbmRmiCvRHThWiojkpGqWdmEDJdXyHbxG/BhE5hmVbMfRLXW9FJVA==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Configuration.ConfigurationManager.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets",
+        "lib/net462/System.Configuration.ConfigurationManager.dll",
+        "lib/net462/System.Configuration.ConfigurationManager.xml",
+        "lib/net6.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net6.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net7.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net7.0/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Diagnostics.EventLog/7.0.0": {
+      "sha512": "eUDP47obqQm3SFJfP6z+Fx2nJ4KKTQbXB4Q9Uesnzw9SbYdhjyoGXuvDn/gEmFY6N5Z3bFFbpAQGA7m6hrYJCw==",
+      "type": "package",
+      "path": "system.diagnostics.eventlog/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Diagnostics.EventLog.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.EventLog.targets",
+        "lib/net462/System.Diagnostics.EventLog.dll",
+        "lib/net462/System.Diagnostics.EventLog.xml",
+        "lib/net6.0/System.Diagnostics.EventLog.dll",
+        "lib/net6.0/System.Diagnostics.EventLog.xml",
+        "lib/net7.0/System.Diagnostics.EventLog.dll",
+        "lib/net7.0/System.Diagnostics.EventLog.xml",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "lib/netstandard2.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.xml",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll",
+        "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.xml",
+        "system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+        "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Drawing.Common/6.0.0": {
+      "sha512": "NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "type": "package",
+      "path": "system.drawing.common/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/net461/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/unix/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.xml",
+        "system.drawing.common.6.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Drawing.Common/7.0.0": {
+      "sha512": "KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "type": "package",
+      "path": "system.drawing.common/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.xml",
+        "system.drawing.common.7.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Resources.Extensions/7.0.0": {
+      "sha512": "65ufm9ABXvxRkQ//hMcUDrQXbGWkC7z0WWZAvHlQ6Qv+JmrIwHH1lmX8aXlNlXpIrT9KxDpuZPqJTVqqwzMD8Q==",
+      "type": "package",
+      "path": "system.resources.extensions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Resources.Extensions.targets",
+        "buildTransitive/net462/System.Resources.Extensions.targets",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Resources.Extensions.targets",
+        "lib/net462/System.Resources.Extensions.dll",
+        "lib/net462/System.Resources.Extensions.xml",
+        "lib/net6.0/System.Resources.Extensions.dll",
+        "lib/net6.0/System.Resources.Extensions.xml",
+        "lib/net7.0/System.Resources.Extensions.dll",
+        "lib/net7.0/System.Resources.Extensions.xml",
+        "lib/netstandard2.0/System.Resources.Extensions.dll",
+        "lib/netstandard2.0/System.Resources.Extensions.xml",
+        "system.resources.extensions.7.0.0.nupkg.sha512",
+        "system.resources.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.Caching/7.0.0": {
+      "sha512": "M0riW7Zgxca3Elp1iZVhzH7PWWT5bPSrdMFGCAGoH1n9YLuXOYE78ryui051Icf3swWWa8feBRoSxOCYwgMy8w==",
+      "type": "package",
+      "path": "system.runtime.caching/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Runtime.Caching.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/_._",
+        "lib/net6.0/System.Runtime.Caching.dll",
+        "lib/net6.0/System.Runtime.Caching.xml",
+        "lib/net7.0/System.Runtime.Caching.dll",
+        "lib/net7.0/System.Runtime.Caching.xml",
+        "lib/netstandard2.0/System.Runtime.Caching.dll",
+        "lib/netstandard2.0/System.Runtime.Caching.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
+        "runtimes/win/lib/net6.0/System.Runtime.Caching.xml",
+        "runtimes/win/lib/net7.0/System.Runtime.Caching.dll",
+        "runtimes/win/lib/net7.0/System.Runtime.Caching.xml",
+        "system.runtime.caching.7.0.0.nupkg.sha512",
+        "system.runtime.caching.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/7.0.0": {
+      "sha512": "xSPiLNlHT6wAHtugASbKAJwV5GVqQK351crnILAucUioFqqieDN79evO1rku1ckt/GfjIn+b17UaSskoY03JuA==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.ProtectedData.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net462/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net6.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net7.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.xml",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.xml",
+        "system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Permissions/7.0.0": {
+      "sha512": "Vmp0iRmCEno9BWiskOW5pxJ3d9n+jUqKxvX4GhLwFhnQaySZmBN2FuC0N5gjFHgyFMUjC5sfIJ8KZfoJwkcMmA==",
+      "type": "package",
+      "path": "system.security.permissions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Permissions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Permissions.targets",
+        "lib/net462/System.Security.Permissions.dll",
+        "lib/net462/System.Security.Permissions.xml",
+        "lib/net6.0/System.Security.Permissions.dll",
+        "lib/net6.0/System.Security.Permissions.xml",
+        "lib/net7.0/System.Security.Permissions.dll",
+        "lib/net7.0/System.Security.Permissions.xml",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.7.0.0.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Windows.Extensions/7.0.0": {
+      "sha512": "bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
+      "type": "package",
+      "path": "system.windows.extensions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/System.Windows.Extensions.dll",
+        "lib/net6.0/System.Windows.Extensions.xml",
+        "lib/net7.0/System.Windows.Extensions.dll",
+        "lib/net7.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net6.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net6.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net7.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net7.0/System.Windows.Extensions.xml",
+        "system.windows.extensions.7.0.0.nupkg.sha512",
+        "system.windows.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Unosquare.Swan.Lite/3.1.0": {
+      "sha512": "X3s5QE/KMj3WAPFqFve7St+Ds10BB50u8kW8PmKIn7FVkn7yEXe9Yxr2htt1WV85DRqfFR0MN/BUNHkGHtL4OQ==",
+      "type": "package",
+      "path": "unosquare.swan.lite/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Swan.Lite.dll",
+        "lib/net461/Swan.Lite.xml",
+        "lib/netstandard2.0/Swan.Lite.dll",
+        "lib/netstandard2.0/Swan.Lite.xml",
+        "unosquare.swan.lite.3.1.0.nupkg.sha512",
+        "unosquare.swan.lite.nuspec"
+      ]
+    },
+    "Wisej-3/3.5.5": {
+      "sha512": "rKsjLywhXNlSJfrHIL5MuI5aDiYfp24/iMKsEH82Lo7og6qzTMF+YClzvxJGgfs1gi4d0gH0Lf2tLdEsgGm99g==",
+      "type": "package",
+      "path": "wisej-3/3.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA-3.1.txt",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Framework.dll",
+        "lib/net48/Wisej.Framework.xml",
+        "lib/net48/de/Wisej.Framework.resources.dll",
+        "lib/net48/es/Wisej.Framework.resources.dll",
+        "lib/net48/fr/Wisej.Framework.resources.dll",
+        "lib/net48/it/Wisej.Framework.resources.dll",
+        "lib/net48/pt/Wisej.Framework.resources.dll",
+        "lib/net48/tr/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/Wisej.Framework.dll",
+        "lib/net7.0-android21.0/Wisej.Framework.xml",
+        "lib/net7.0-android21.0/cs/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/de/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/es/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/fr/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/it/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/ja/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/ko/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/pl/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/pt/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/ru/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/tr/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net7.0-android21.0/zh-Hant/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/Wisej.Framework.dll",
+        "lib/net7.0-ios14.2/Wisej.Framework.xml",
+        "lib/net7.0-ios14.2/cs/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/de/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/es/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/fr/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/it/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/ja/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/ko/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/pl/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/pt/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/ru/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/tr/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net7.0-ios14.2/zh-Hant/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/Wisej.Framework.dll",
+        "lib/net7.0-maccatalyst14.0/Wisej.Framework.xml",
+        "lib/net7.0-maccatalyst14.0/cs/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/de/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/es/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/fr/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/it/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/ja/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/ko/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/pl/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/pt/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/ru/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/tr/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net7.0-maccatalyst14.0/zh-Hant/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/Wisej.Framework.dll",
+        "lib/net7.0-windows10.0.19041.0/Wisej.Framework.xml",
+        "lib/net7.0-windows10.0.19041.0/cs/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/de/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/es/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/fr/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/it/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/ja/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/ko/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/pl/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/pt/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/ru/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/tr/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/zh-Hant/Wisej.Framework.resources.dll",
+        "lib/net7.0/Wisej.Framework.dll",
+        "lib/net7.0/Wisej.Framework.xml",
+        "lib/net7.0/cs/Wisej.Framework.resources.dll",
+        "lib/net7.0/de/Wisej.Framework.resources.dll",
+        "lib/net7.0/es/Wisej.Framework.resources.dll",
+        "lib/net7.0/fr/Wisej.Framework.resources.dll",
+        "lib/net7.0/it/Wisej.Framework.resources.dll",
+        "lib/net7.0/ja/Wisej.Framework.resources.dll",
+        "lib/net7.0/ko/Wisej.Framework.resources.dll",
+        "lib/net7.0/pl/Wisej.Framework.resources.dll",
+        "lib/net7.0/pt-BR/Wisej.Framework.resources.dll",
+        "lib/net7.0/pt/Wisej.Framework.resources.dll",
+        "lib/net7.0/ru/Wisej.Framework.resources.dll",
+        "lib/net7.0/tr/Wisej.Framework.resources.dll",
+        "lib/net7.0/zh-Hans/Wisej.Framework.resources.dll",
+        "lib/net7.0/zh-Hant/Wisej.Framework.resources.dll",
+        "wisej-3.3.5.5.nupkg.sha512",
+        "wisej-3.nuspec"
+      ]
+    },
+    "Wisej-3-RibbonBar/3.5.5": {
+      "sha512": "Po6FLTZbOxusiGqeNFH1o7ET3Rbp9o/j1Mg0YMCTeBIfFUJWJuO4tQL/jhuRRSCSZScGw0/tsZopa88y6bRaEA==",
+      "type": "package",
+      "path": "wisej-3-ribbonbar/3.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Web.Ext.RibbonBar.dll",
+        "lib/net48/Wisej.Web.Ext.RibbonBar.xml",
+        "lib/net7.0-android21.0/Wisej.Web.Ext.RibbonBar.dll",
+        "lib/net7.0-android21.0/Wisej.Web.Ext.RibbonBar.xml",
+        "lib/net7.0-ios14.2/Wisej.Web.Ext.RibbonBar.dll",
+        "lib/net7.0-ios14.2/Wisej.Web.Ext.RibbonBar.xml",
+        "lib/net7.0-maccatalyst14.0/Wisej.Web.Ext.RibbonBar.dll",
+        "lib/net7.0-maccatalyst14.0/Wisej.Web.Ext.RibbonBar.xml",
+        "lib/net7.0-windows10.0.19041.0/Wisej.Web.Ext.RibbonBar.dll",
+        "lib/net7.0-windows10.0.19041.0/Wisej.Web.Ext.RibbonBar.xml",
+        "lib/net7.0/Wisej.Web.Ext.RibbonBar.dll",
+        "lib/net7.0/Wisej.Web.Ext.RibbonBar.xml",
+        "wisej-3-ribbonbar.3.5.5.nupkg.sha512",
+        "wisej-3-ribbonbar.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Microsoft.CSharp >= 4.7.0",
+      "System.Drawing.Common >= 6.0.0",
+      "Wisej-3 >= 3.5.5",
+      "Wisej-3-RibbonBar >= 3.5.5"
+    ],
+    "net8.0-windows10.0.19041": [
+      "Microsoft.CSharp >= 4.7.0",
+      "System.Drawing.Common >= 7.0.0",
+      "Wisej-3 >= 3.5.5",
+      "Wisej-3-RibbonBar >= 3.5.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Shadow\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Shadow\\source\\repos\\antable93\\OverjoyedRelease\\Wisej-TourPanel\\Wisej.Web.Ext.TourPanel.csproj",
+      "projectName": "Wisej.Web.Ext.TourPanel",
+      "projectPath": "C:\\Users\\Shadow\\source\\repos\\antable93\\OverjoyedRelease\\Wisej-TourPanel\\Wisej.Web.Ext.TourPanel.csproj",
+      "packagesPath": "C:\\Users\\Shadow\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shadow\\source\\repos\\antable93\\OverjoyedRelease\\Wisej-TourPanel\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Shadow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48",
+        "net8.0-windows10.0.19041.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "projectReferences": {}
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0-windows10.0.19041": {
+        "targetAlias": "net8.0-windows10.0.19041.0",
+        "dependencies": {
+          "Microsoft.CSharp": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[7.0.0, )",
+            "aliases": "sdc"
+          },
+          "Wisej-3": {
+            "target": "Package",
+            "version": "[3.5.5, )"
+          },
+          "Wisej-3-RibbonBar": {
+            "target": "Package",
+            "version": "[3.5.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.19041.57, 10.0.19041.57]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref.Windows": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+      },
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Microsoft.CSharp": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Wisej-3": {
+            "target": "Package",
+            "version": "[3.5.5, )"
+          },
+          "Wisej-3-RibbonBar": {
+            "target": "Package",
+            "version": "[3.5.5, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

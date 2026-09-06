@@ -1,0 +1,1199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblDZ.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="cmbAdvanced.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="styleSheet1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>179, 17</value>
+  </data>
+  <data name="styleSheet1.Styles" xml:space="preserve">
+    <value>[name='chkXbox'] [name='label'], [name='chkKeyboard'] [name='label'], [name='nintendoSwitch'] [name='label']{line-height:1!important;}
+ [name= 'ExitTour']{ opacity: 0!important; } [name='arrow']{display:none!important;}
+                 [name= 'CloseButton']{ background-color:black!important; }
+div[name='html'] svg {width:100%!important;height:100%!important;}
+.marquee-outer {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  vertical-align: middle;
+  text-align: center; /* center content initially */
+}
+.marquee-inner {
+  display: inline-flex;
+  white-space: nowrap;
+  transform: translateX(0);
+  will-change: transform;
+}
+.marquee-inner  span:nth-child(2) {
+  display: inline-block;
+  padding-left:20%;visibility:hidden;
+}.marquee-inner:hover  span:nth-child(2) {
+visibility:visible;
+}.gt-open::-webkit-scrollbar {
+  width: 20px!important;    
+}
+
+/* scrolling effect on hover */
+.marquee-outer:hover .marquee-inner {
+  animation: scroll-left 8s linear infinite;
+}
+
+@keyframes scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.truncate{
+  overflow: hidden;
+  display: -webkit-inline-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;}
+
+.qx-combobox-button-inner, .qx-combobox-button-inner-focused {background-color: #F0F0F0!important;
+    background-color: #000000!important;   
+ border-radius: 0px 5px 5px 0px;}
+.qx-combobox-button-inner:hover {background-color: none;}#gt_float_wrapper {
+  position: absolute!important;
+  top:0!important;           /* adjust to taste */
+  right:0!important;display:block!important;
+  z-index: 999999;zoom:0.7;
+}
+
+
+
+.border-button { outline: 4px solid rgb(0, 167, 209) !important;
+    border: none !important; background-color:black!important;
+ }
+
+.border-button:hover {background-color:rgb(0, 167, 209)!important;
+    outline: 4px solid black !important;
+}
+
+.disableButtonOn {outline:4px solid black!important;
+background-color:rgb(0, 167, 209)!important;  -webkit-animation: blink 2s infinite alternate;
+  animation: blink 2s infinite alternate;}
+
+.disableButtonOff {outline:0px!important;
+background-color:black!important;}
+
+.disableButtonOff, .disableButtonOn {
+
+background-image: url('data:image/svg+xml;utf8,%3Csvg%20width%3D%221678%22%20height%3D%221923%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xml%3Aspace%3D%22preserve%22%20overflow%3D%22hidden%22%3E%3Cdefs%3E%3CclipPath%20id%3D%22clip0%22%3E%3Crect%20x%3D%221307%22%20y%3D%22276%22%20width%3D%221678%22%20height%3D%221923%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg%20clip-path%3D%22url%28%23clip0%29%22%20transform%3D%22translate%28-1307%20-276%29%22%3E%3Cpath%20d%3D%22M1630.29%20747.956C1630.95%20747.956%201631.6%20748.283%201632.25%20748.934L1633.22%20748.934C1672.29%20749.584%201705.5%20763.753%201732.85%20791.439%201760.2%20819.125%201773.87%20852.51%201773.87%20891.595%201773.87%20907.229%201770.13%20924.655%201762.64%20943.873%201755.15%20963.088%201746.2%20978.235%201735.78%20989.308%201641.36%201095.49%201594.15%201218.94%201594.15%201359.64%201594.15%201459.96%201618.57%201552.46%201667.41%201637.15%201716.24%201721.83%201783.15%201788.77%201868.12%201837.95%201953.1%201887.13%202045.72%201911.72%202146%201911.72%202246.28%201911.72%202338.74%201887.3%202423.39%201838.44%202508.04%201789.58%202574.94%201722.65%202624.1%201637.64%202673.26%201552.63%202697.85%201459.96%202697.85%201359.64%202697.85%201218.94%202650.64%201095.49%202556.22%20989.308%202545.8%20978.235%202536.85%20963.088%202529.36%20943.873%202521.87%20924.655%202518.13%20907.229%202518.13%20891.595%202518.13%20851.859%202532.13%20817.984%202560.13%20789.974%202588.13%20761.962%202621.99%20747.956%202661.71%20747.956%202679.94%20747.956%202699.47%20752.842%202720.31%20762.613%202741.15%20772.385%202757.42%20784.111%202769.15%20797.79%202837.52%20873.356%202890.58%20959.505%202928.35%201056.24%202966.12%201152.98%202985%201254.11%202985%201359.64%202985%201472.99%202962.7%201581.45%202918.09%201685.03%202873.49%201788.6%202813.75%201878.01%202738.87%201953.25%202663.99%202028.49%202574.78%202088.26%202471.25%202132.56%202367.71%202176.85%202259.3%202199%202146%202199%202032.7%202199%201924.29%202176.69%201820.75%202132.07%201717.22%202087.45%201627.85%202027.68%201552.64%201952.76%201477.44%201877.85%201417.69%201788.6%201373.42%201685.03%201329.14%201581.45%201307%201472.99%201307%201359.64%201307%201254.11%201325.88%201152.98%201363.65%201056.24%201401.42%20959.505%201454.48%20873.356%201522.85%20797.79%201534.58%20784.111%201550.85%20772.385%201571.69%20762.613%201592.53%20752.842%201612.06%20747.956%201630.29%20747.956ZM2145.02%20276%202146.98%20276C2186.7%20276%202220.56%20290.006%202248.55%20318.018%202276.55%20346.028%202290.55%20379.903%202290.55%20419.639L2290.55%20421.594%202290.55%201359.64%202290.55%201360.62C2290.55%201400.36%202276.55%201434.23%202248.55%201462.24%202220.56%201490.25%202186.7%201504.26%202146.98%201504.26%202107.26%201504.26%202073.4%201490.25%202045.4%201462.24%202017.4%201434.23%202003.4%201400.36%202003.4%201360.62L2003.4%201359.64%202003.4%20421.594%202003.4%20419.639C2003.4%20380.554%202017.24%20347.006%202044.91%20318.994%202072.58%20290.983%202105.96%20276.652%202145.02%20276Z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');background-repeat: no-repeat;background-size:60%;background-position: center;outline:3px solid rgb(0, 167, 209);}
+
+.disableButtonOff:hover, .disableButtonOn:hover {
+outline:4px solid rgb(0, 167, 209)!important;}
+
+.highlight {
+  -webkit-animation: blink 2s infinite alternate;
+  animation: blink 2s infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  100% {
+    box-shadow: 0 0 10px #0ba9ca,
+      0 0 20px #0ba9ca, 0 0 40px #0ba9ca;
+  }
+}
+
+@keyframes blink {
+  100% {
+    box-shadow: 0 0 10px #0ba9ca,
+      0 0 20px #0ba9ca, 0 0 40px #0ba9ca;
+  }
+}
+
+
+.optButtons:hover{background-color:rgb(0, 167, 209);}
+.optButtons:hover div {color:white!important;}
+.optButtons{    box-shadow: 3px 4px 0px 0px #337bc4;
+    background-color:lightcyan;
+    border-radius:5px;
+    border:1px solid #337bc4;
+    display:inline-block;
+    cursor:pointer;
+    color:black!important;
+    font-family:Arial;
+    padding:6px 44px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;}</value>
+  </data>
+  <data name="actUpLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actUp.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actDownLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actDown.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actDownRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actUpRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagUpLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagDownLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagDownLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagDownLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagUpLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagUpLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagUpRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagUpRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagUpRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagDownRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagDownRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="diagDownRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkStreamer.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAlpha.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableUpRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optDown.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optUp.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optUpRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbRightRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpRightRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbRightLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpRightLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpRightLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpRightRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRightRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRightLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optUpLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optDownLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchUpLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpLeftRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbLeftRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpLeftLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbUpLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownLeftRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbLeftLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownLeftLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownLeftLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownLeftRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpLeftLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpLeftRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnUpLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnLeftRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnLeftLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceUpLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceDownLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceDown.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceDownRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceUpRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceUp.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDownRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDownLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDownLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdUpLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdUpLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdUpRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdUpRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdUpLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDownLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDownRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDownRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdUpRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="varUpLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="varLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="varDownLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="varDownHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="varDownRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="varRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="varUpRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="varUpHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLabelsLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcUpLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcDownLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcDownRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLabelsHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcDownRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcUpRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcUpRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcUpLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcDownLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcDownLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcDownRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcUpRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLabelsRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtcUpLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpLeftRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpLeftHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDownRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disUpRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togUpRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownLeftLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDownRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDownRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownRightRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownRightLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDownRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optDownRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownRightRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownRightLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDownRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownRightLclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownRightRclick.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDownRightHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mergeUpRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mergeUpRight.Html" xml:space="preserve">
+    <value>&lt;svg width="100%" height="100%" id="merge2" viewBox="0 0 800 800" transform="rotate(315) translate(10,5)"&gt;
+&lt;path transform="rotate(0) scale(2.9) translate(0,-25)" fill="#00a7d1" d="M10.5,49.9c0.4,17.7,0.8,22.5,2.5,28.9c2.5,9.5,7.4,20,12.9,27.7c4.5,6.2,14.8,16.4,19.6,19.2c1.6,1,3,2,3,2.3c0,0.3-2.2,1.9-4.8,3.7c-6.8,4.6-17.3,15.9-22,23.9c-8.7,14.7-11.5,27.9-11.5,55.2v16.5h11h11v-18.9c0-15.8,0.3-20.2,1.9-26.4c4.1-16.1,14.9-29.5,29.6-36.8c13.7-6.7,14-6.8,80.7-6.8h59.2l-14.3,14.3L175,167l2.8,3.1c1.5,1.7,5,5.4,7.6,8.2l4.8,5l27.9-27.9c15.4-15.4,28-28.2,28-28.4c0-0.3-12.4-13.1-27.5-28.5L191,70.3l-7.2,7.4c-3.9,4.1-7.3,7.9-7.4,8.4c-0.2,0.6,6.3,7.6,14.3,15.7l14.7,14.7h-60.6c-67.9,0-68.4-0.1-81.6-6.6C48.8,102.9,38.3,89.5,34.1,73c-1.6-6.1-1.9-10.6-1.9-25.9V28.7H21.1H10L10.5,49.9z"/&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="mergeUpLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mergeUpLeft.Html" xml:space="preserve">
+    <value>&lt;svg width="100%" height="100%" viewBox="0 0 800 800" transform="rotate(225) translate(11,11)"&gt;
+&lt;path transform="rotate(0) scale(2.9) translate(0,-25)" fill="#00a7d1" d="M10.5,49.9c0.4,17.7,0.8,22.5,2.5,28.9c2.5,9.5,7.4,20,12.9,27.7c4.5,6.2,14.8,16.4,19.6,19.2c1.6,1,3,2,3,2.3c0,0.3-2.2,1.9-4.8,3.7c-6.8,4.6-17.3,15.9-22,23.9c-8.7,14.7-11.5,27.9-11.5,55.2v16.5h11h11v-18.9c0-15.8,0.3-20.2,1.9-26.4c4.1-16.1,14.9-29.5,29.6-36.8c13.7-6.7,14-6.8,80.7-6.8h59.2l-14.3,14.3L175,167l2.8,3.1c1.5,1.7,5,5.4,7.6,8.2l4.8,5l27.9-27.9c15.4-15.4,28-28.2,28-28.4c0-0.3-12.4-13.1-27.5-28.5L191,70.3l-7.2,7.4c-3.9,4.1-7.3,7.9-7.4,8.4c-0.2,0.6,6.3,7.6,14.3,15.7l14.7,14.7h-60.6c-67.9,0-68.4-0.1-81.6-6.6C48.8,102.9,38.3,89.5,34.1,73c-1.6-6.1-1.9-10.6-1.9-25.9V28.7H21.1H10L10.5,49.9z"/&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="mergeDownLeft.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mergeDownLeft.Html" xml:space="preserve">
+    <value>&lt;svg width="100%" height="100%" viewBox="0 0 800 800" transform="rotate(135) translate(11,11)"&gt;
+&lt;path transform="rotate(0) scale(2.9) translate(0,-25)" fill="#00a7d1" d="M10.5,49.9c0.4,17.7,0.8,22.5,2.5,28.9c2.5,9.5,7.4,20,12.9,27.7c4.5,6.2,14.8,16.4,19.6,19.2c1.6,1,3,2,3,2.3c0,0.3-2.2,1.9-4.8,3.7c-6.8,4.6-17.3,15.9-22,23.9c-8.7,14.7-11.5,27.9-11.5,55.2v16.5h11h11v-18.9c0-15.8,0.3-20.2,1.9-26.4c4.1-16.1,14.9-29.5,29.6-36.8c13.7-6.7,14-6.8,80.7-6.8h59.2l-14.3,14.3L175,167l2.8,3.1c1.5,1.7,5,5.4,7.6,8.2l4.8,5l27.9-27.9c15.4-15.4,28-28.2,28-28.4c0-0.3-12.4-13.1-27.5-28.5L191,70.3l-7.2,7.4c-3.9,4.1-7.3,7.9-7.4,8.4c-0.2,0.6,6.3,7.6,14.3,15.7l14.7,14.7h-60.6c-67.9,0-68.4-0.1-81.6-6.6C48.8,102.9,38.3,89.5,34.1,73c-1.6-6.1-1.9-10.6-1.9-25.9V28.7H21.1H10L10.5,49.9z"/&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="mergeDownRight.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mergeDownRight.Html" xml:space="preserve">
+    <value>&lt;svg width="100%" height="100%" viewBox="0 0 800 800" transform="rotate(45) translate(10,10)"&gt;
+&lt;path transform="rotate(0) scale(2.9) translate(0,-25)" fill="#00a7d1" d="M10.5,49.9c0.4,17.7,0.8,22.5,2.5,28.9c2.5,9.5,7.4,20,12.9,27.7c4.5,6.2,14.8,16.4,19.6,19.2c1.6,1,3,2,3,2.3c0,0.3-2.2,1.9-4.8,3.7c-6.8,4.6-17.3,15.9-22,23.9c-8.7,14.7-11.5,27.9-11.5,55.2v16.5h11h11v-18.9c0-15.8,0.3-20.2,1.9-26.4c4.1-16.1,14.9-29.5,29.6-36.8c13.7-6.7,14-6.8,80.7-6.8h59.2l-14.3,14.3L175,167l2.8,3.1c1.5,1.7,5,5.4,7.6,8.2l4.8,5l27.9-27.9c15.4-15.4,28-28.2,28-28.4c0-0.3-12.4-13.1-27.5-28.5L191,70.3l-7.2,7.4c-3.9,4.1-7.3,7.9-7.4,8.4c-0.2,0.6,6.3,7.6,14.3,15.7l14.7,14.7h-60.6c-67.9,0-68.4-0.1-81.6-6.6C48.8,102.9,38.3,89.5,34.1,73c-1.6-6.1-1.9-10.6-1.9-25.9V28.7H21.1H10L10.5,49.9z"/&gt;
+&lt;/svg&gt;</value>
+  </data>
+  <data name="btnFocus.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actDZLower.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actDZMiddle.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZLowerHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZLowerLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZLowerRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZMiddleHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZMiddleLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZMiddleRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="actDZUpper.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZUpperHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZUpperLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disableDZUpperRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceDZLower.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDZLowerRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceDZMiddle.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZLowerRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onceDZUpper.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZLowerLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDZMiddleRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZLowerHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDZUpperLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZMiddleRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZMiddleLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDZLowerLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZUpperRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZMiddleHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDZMiddleLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZUpperLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="holdDZUpperRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optDZLower.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optDZMiddle.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="switchDZUpperHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optDZUpper.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZUpperHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZUpperRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZUpperLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkActivateLower.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZLowerLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZMiddleHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZLowerRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZMiddleLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZLowerHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="disDZMiddleRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZLowerHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkActivateMiddle.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZMiddleHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZLowerHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZMiddleHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZMiddleLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZLowerRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZMiddleRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZLowerLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZMiddleLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkActivateUpper.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZLowerLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZMiddleLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZLowerLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZMiddleRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZMiddleRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZLowerRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZUpperRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZLowerRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZUpperLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZUpperRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZUpperLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbDZUpperHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLower.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUpper.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMiddle.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZUpperRC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZUpperHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="togDZUpperLC.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZUpperHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZMiddleHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDZLowerHover.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlAllSettings.InitScript" xml:space="preserve">
+    <value>// Create a new style element
+var styleElement = document.createElement('style');
+
+// Define the CSS rules
+var css = `
+    div.qx-checkbox-icon-checked {
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9InJnYigwLCAxNjcsIDIwOSkiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImNvbG9yOiByZ2IoMCwgMTY3LCAyMDkpOyBmaWxsOiByZ2IoMCwgMTY3LCAyMDkpOyI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjExIDAtMiAuOS0yIDJ2MTRjMCAxLjEuODkgMiAyIDJoMTRjMS4xMSAwIDItLjkgMi0yVjVjMC0xLjEtLjg5LTItMi0yem0tOSAxNGwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIgZmlsbD0icmdiKDAsIDE2NywgMjA5KSIvPgo8L3N2Zz4=') !important;
+    }
+    div.qx-checkbox-icon-hovered-checked {
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9InJnYigwLCAxNjcsIDIwOSkiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImNvbG9yOiByZ2IoMCwgMTY3LCAyMDkpOyBmaWxsOiByZ2IoMCwgMTY3LCAyMDkpOyI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjExIDAtMiAuOS0yIDJ2MTRjMCAxLjEuODkgMiAyIDJoMTRjMS4xMSAwIDItLjkgMi0yVjVjMC0xLjEtLjg5LTItMi0yem0tOSAxNGwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIgZmlsbD0icmdiKDAsIDE2NywgMjA5KSIvPgo8L3N2Zz4=') !important;
+    }
+`;
+
+// Add the CSS rules to the style element
+styleElement.innerHTML = css;
+
+// Append the style element to the body of the document
+document.body.appendChild(styleElement);</value>
+  </data>
+</root>

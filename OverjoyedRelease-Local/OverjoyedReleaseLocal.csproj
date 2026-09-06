@@ -1,0 +1,139 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net10.0-windows10.0.19041.0</TargetFrameworks>
+		<!--<TargetFrameworks Condition="'$(Configuration)' == 'Debug'">net10.0-windows10.0.19041.0</TargetFrameworks>-->
+
+		<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<EmbeddedResourceUseDependentUponConvention>true</EmbeddedResourceUseDependentUponConvention>
+		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_").Replace("-", "_"))</RootNamespace>
+		<NoWarn>CA1416</NoWarn>
+		<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+		<Platforms>x64</Platforms>
+		<SelfContained>true</SelfContained>
+
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+
+		<WindowsAppSDKSelfContained>false</WindowsAppSDKSelfContained>
+
+		<PublishReadyToRun>false</PublishReadyToRun>
+		<LangVersion>9.0</LangVersion>
+
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Themes\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="**\.vshistory\**\*.cs" />
+		<None Remove="**\.vshistory\**\*" />
+		<Compile Remove="**/.vshistory/**/*.cs" />
+		<None Remove="**/.vshistory/**/*" />
+	</ItemGroup>
+
+
+	<ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))'=='net'">
+		<Reference Include="System.Windows.Forms">
+			<Aliases>swf</Aliases>
+		</Reference>
+		<Compile Remove="OfflineStartup.cs" />
+		<Content Include="OfflineStartup.cs" />
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net10.0-windows10.0.19041.0'">
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="favicon.ico" />
+		<None Remove="microHIDx64.dll" />
+		<None Remove="Offline.html" />
+		<None Remove="Offline.json" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="microHIDx64.dll">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<HybridAsset Include="favicon.ico" />
+		<HybridAsset Include="Offline.html" />
+		<HybridAsset Include="Offline.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="Active\Active.Input.CombineControllers.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="Active\Active.Variables.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Config\Config.Tour.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Config\Config.Profiles.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Config\Config.Variables.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Config\Config.UI.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Active\Active.AdvancedModes.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Active\Active.Input.CombineControllers.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Active\Active.Input.MenuControls.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Active\Active.Input.Remote.cs">
+		  <SubType>Form</SubType>
+		</Compile>
+		<Compile Update="Active\Active.UI.Core.cs" />
+		<Compile Update="Config\Config.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EmbedIO" Version="3.5.2" />
+		<PackageReference Include="GregsStack.InputSimulatorStandard" Version="1.3.5" />
+		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3856.49" />
+		<PackageReference Include="Nefarius.ViGEm.Client" Version="1.21.256" />
+		<PackageReference Include="Microsoft.Maui.Core" Version="10.0.50" />
+		<PackageReference Include="Notion.Net" Version="4.4.0" />
+		<PackageReference Include="SIPSorcery" Version="10.0.3" />
+		<PackageReference Include="StackExchange.Redis" Version="2.12.8" />
+		<PackageReference Include="Vizcon.OSC" Version="1.0.3" />
+		<PackageReference Include="Wisej-4" Version="4.0.11" />
+		<PackageReference Include="Wisej-4-Hybrid" Version="4.0.11" />
+		<PackageReference Include="Wisej-4-RibbonBar" Version="4.0.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SharedVars\SharedVars.csproj" />
+		<ProjectReference Include="..\Wisej.Web.Ext.TourPanel\Wisej.Web.Ext.TourPanel.csproj" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <None Update="Themes\Overjoyed2025.theme">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+
+
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\bin\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.deps.json
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\bin\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.dll
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\bin\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.pdb
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\bin\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.xml
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.csproj.AssemblyReference.cache
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.TourPanel.resources
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.csproj.GenerateResource.cache
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.sourcelink.json
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.dll
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\refint\Wisej.Web.Ext.TourPanel.dll
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.xml
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\Wisej.Web.Ext.TourPanel.pdb
+C:\Users\Shadow\source\repos\antable93\OverjoyedRelease\Wisej-TourPanel\obj\x64\Debug\net8.0-windows10.0.19041.0\ref\Wisej.Web.Ext.TourPanel.dll

@@ -1,0 +1,741 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wisej.Web.Ext.TourPanel</name>
+    </assembly>
+    <members>
+        <member name="T:Wisej.Web.Ext.TourPanel.TourPanel">
+            <summary>
+            Provides a tour panel template that can be used to create
+            a guided tour of an application.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.#ctor(Wisej.Web.Control)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/> control
+            and assigns it to the specified <para>parent</para>.
+            </summary>
+            <param name="parent">The parent control that owns this tour panel.</param>
+            <exception cref="T:System.ArgumentNullException">The value of <para>parent</para> is null.</exception>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.DragDrop">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.DragEnd">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.DragEnter">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.DragOver">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.DragStart">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.QueryContinueDrag">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.TabIndexChanged">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.TabStopChanged">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.Validated">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.Validating">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.DockChanged">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.CausesValidationChanged">
+            <summary>
+            This event is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.BeforeStep">
+            <summary>
+            Fired when the TourPanel shows a new step. This event
+            is cancelable.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnBeforeStep(Wisej.Web.Ext.TourPanel.TourPanelEventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.BeforeStep"/> event.
+            </summary>
+            <param name="e">A <see cref="T:Wisej.Web.Ext.TourPanel.TourPanelEventArgs" /> that contains the event data. </param>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.AfterStep">
+            <summary>
+            Fired when the current step is replaced by a new step. This
+            event is not cancelable.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnAfterStep(Wisej.Web.Ext.TourPanel.TourPanelEventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.AfterStep"/> event.
+            </summary>
+            <param name="e">A <see cref="T:Wisej.Web.Ext.TourPanel.TourPanelEventArgs" /> that contains the event data. </param>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.Closed">
+            <summary>
+            Fired when the TourPanel control is closed.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnClosed(System.EventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.Closed" />
+            event.
+            </summary>
+            <param name="e">A <see cref="T:System.EventArgs" /> that contains the event data. </param>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.Ended">
+            <summary>
+            Fires when the TourPanel has finished showing the steps.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnEnded(System.EventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.Ended" /> event.
+            </summary>
+            <param name="e">A <see cref="T:System.EventArgs" /> that contains the event data. </param>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.Paused">
+            <summary>
+            Fired when the TourPanel has been paused.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnPaused(System.EventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.Paused" /> event.
+            </summary>
+            <param name="e">A <see cref="T:System.EventArgs" /> that contains the event data. </param>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.Playing">
+            <summary>
+            Fires when the TourPanel is playing the steps automatically.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnPlaying(System.EventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.Playing" /> event.
+            </summary>
+            <param name="e">A <see cref="T:System.EventArgs" /> that contains the event data. </param>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourPanel.NotFound">
+            <summary>
+            Fires when the TourPanel cannot find the target widget
+            specified in the <see cref="P:Wisej.Web.Ext.TourPanel.TourStep.TargetName"/> property of the
+            <see cref="P:Wisej.Web.Ext.TourPanel.TourPanel.CurrentStep"/>.
+            </summary>
+            <remarks>
+            If this event is not handled, the default behavior is to throw an exception.
+            </remarks>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnNotFound(System.ComponentModel.HandledEventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.NotFound" /> event.
+            </summary>
+            <param name="e">A <see cref="T:System.ComponentModel.HandledEventArgs" /> that contains the event data. </param>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoScroll">
+            <summary>
+            This property is not relevant to this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoScrollMargin">
+            <summary>
+            This property is not relevant to this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoScrollMinSize">
+            <summary>
+            This property is not relevant to this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoScrollOffset">
+            <summary>
+            This property is not relevant to this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoScrollPosition">
+            <summary>
+            This property is not relevant to this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.ScrollBars">
+            <summary>
+            This property is not relevant to this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Visible">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Focusable">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Enabled">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Movable">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.TabStop">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.CausesValidation">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AllowDrag">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AllowDrop">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.TabIndex">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Dock">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Anchor">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.ResizableEdges">
+            <summary>
+            This property is not relevant for this class.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoSize">
+            <summary>
+            Determines whether the TourPanel automatically adjusts
+            its dimension when the step changes.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoClose">
+            <summary>
+            Determines whether the TourPanel will close automatically 
+            when the user clicks outside of the control.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoPlay">
+            <summary>
+            Determines whether the TourPanel will start showing the steps automatically.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.CurrentStep">
+            <summary>
+            Returns or sets the current <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/>.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.SelectedIndex">
+            <summary>
+            Returns or sets the index of the current <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/>
+            in the <see cref="P:Wisej.Web.Ext.TourPanel.TourPanel.Steps"/> collection.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.DefaultAlignment">
+            <summary>
+            Returns or sets the default <see cref="T:Wisej.Web.Placement"/> of the
+            TourPanel.
+            </summary>
+            <remarks>
+            Each <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/> can override the
+            DefaultAlignment and change the placement of the TourStep.
+            </remarks>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.DefaultOffset">
+            <summary>
+            Returns or sets the default offset from the target, in pixels.
+            </summary>
+            <remarks>
+            Each <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/> can override the
+            DefaultOffset and change the offset of the TourStep.
+            </remarks>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.DefaultAutoPlayTime">
+            <summary>
+            Returns or sets the default number of seconds before showing the next step
+            when the <see cref="P:Wisej.Web.Ext.TourPanel.TourPanel.AutoPlay"/> property
+            is set to true.
+            </summary>
+            <remarks>
+            Each <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/> can override the
+            DefaultAutoPlayTime and change the AutoPlayTime of the TourStep.
+            </remarks>
+            <exception cref="T:System.ArgumentException">
+            When the value is less than 1.
+            </exception>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.DefaultShowClose">
+            <summary>
+            Determines whether the 
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>
+            shows the <see cref="F:Wisej.Web.Ext.TourPanel.TourPanel.CloseButton"/> and <see cref="F:Wisej.Web.Ext.TourPanel.TourPanel.ExitButton"/> buttons.
+            </summary>
+            <remarks>
+            The <see cref="F:Wisej.Web.Ext.TourPanel.TourPanel.ExitButton"/> is always shown on the last step.
+            </remarks>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Steps">
+            <summary>
+            Collection of the steps to show in this TourPanel.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.HighlightTarget">
+            <summary>
+            Returns or sets a value indicating whether the current target is highlighted.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.HighlightColor">
+            <summary>
+            Returns or sets the color index for the highlight mask.
+            Uses the highlightColor set in the theme when this property is <see cref="F:System.Drawing.Color.Empty"/>.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.IsPlaying">
+            <summary>
+            Returns whether the TourPanel is currently playing the steps.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.IsFirstStep">
+            <summary>
+            Returns true if the current step is the first. 
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.IsLastStep">
+            <summary>
+            Returns true if the current step is the last one.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.First">
+            <summary>
+            Shows the first step.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.Next">
+            <summary>
+            Shows the next step
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.Back">
+            <summary>
+            Shows the previous step.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.Play">
+            <summary>
+            Starts auto-advancing the steps.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.Pause">
+            <summary>
+            Pauses auto-advancing the steps.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.Show">
+            <summary>
+            Shows the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/> without a container.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.Show(Wisej.Web.ContainerControl)">
+            <summary>
+            Shows the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/> for the specified container control.
+            </summary>
+            <param name="container">
+            The <see cref="T:Wisej.Web.ContainerControl"/> that hosts the controls
+            that are the target for this <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>.
+            </param>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Container">
+            <summary>
+            Returns the <see cref="T:Wisej.Web.ContainerControl"/> that this TourPanel
+            is attached to.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.Close">
+            <summary>
+            Closes the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.Dispose(System.Boolean)">
+            <summary>
+            Disposes the TourPanel.
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.HtmlText">
+            <summary>
+            This is the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel.HtmlPanel"/> that shows the
+            current step's <see cref="P:Wisej.Web.Ext.TourPanel.TourStep.Text"/>.
+            </summary>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.TitleLabel">
+            <summary>
+            This is the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel.Label"/> that shows the
+            current step's <see cref="P:Wisej.Web.Ext.TourPanel.TourStep.Title"/>.
+            </summary>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.CloseButton">
+            <summary>
+            The close <see cref="T:Wisej.Web.Button"/> at the top right of the
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>. It's hidden
+            when the property <see cref="P:Wisej.Web.Ext.TourPanel.TourStep.ShowClose"/> is false.
+            </summary>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.ButtonsPanel">
+            <summary>
+            A <see cref="T:Wisej.Web.FlowLayoutPanel"/> that contains
+            all the tour buttons.
+            </summary>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.PlayButton">
+            <summary>
+            The play <see cref="T:Wisej.Web.Button"/>. It starts the auto playing of the steps.
+            </summary>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.NextButton">
+            <summary>
+            The next <see cref="T:Wisej.Web.Button"/>. Shows the next step.
+            </summary>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.BackButton">
+            <summary>
+            The play <see cref="T:Wisej.Web.Button"/>.
+            </summary>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.ExitButton">
+            <summary>
+            The back <see cref="T:Wisej.Web.Button"/>. Shows the previous step.
+            </summary>
+        </member>
+        <member name="F:Wisej.Web.Ext.TourPanel.TourPanel.TitlePanel">
+            <summary>
+            A <see cref="T:Wisej.Web.Panel"/> that contains the TitleLabel and the 
+            Close button.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Wisej#Core#IWisejControl#AppearanceKey">
+            <summary>
+            Returns the theme appearance key for this control.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnWebEvent(Wisej.Core.WisejEventArgs)">
+            <summary>
+            Processes the event from the client.
+            </summary>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.OnWebRender(System.Object)">
+            <summary>
+            Renders the client component.
+            </summary>
+            <param name="config">Dynamic configuration object.</param>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanel.RenderScrollableProperties(System.Object)">
+            <exclude/>
+        </member>
+        <member name="T:Wisej.Web.Ext.TourPanel.TourPanel.Label">
+            <summary>
+            Label.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.Label.Text">
+            <summary>
+            Text property.
+            </summary>
+        </member>
+        <member name="T:Wisej.Web.Ext.TourPanel.TourPanel.HtmlPanel">
+            <summary>
+            HtmlPanel inside the TourPanel.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.HtmlPanel.Html">
+            <summary>
+            Html text.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanel.HtmlPanel.Anchor">
+            <summary>
+            Anchor property.
+            </summary>
+        </member>
+        <member name="T:Wisej.Web.Ext.TourPanel.TourPanelEventArgs">
+            <summary>
+            Provides data for <see cref="E:Wisej.Web.Ext.TourPanel.TourPanelEventHandler" /> event.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourPanelEventArgs.#ctor(Wisej.Web.Ext.TourPanel.TourStep,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanelEventArgs" /> class. 
+            </summary>
+            <param name="step">The <see cref="T:Wisej.Web.Ext.TourPanel.TourStep" /> the event is occurring for.</param>
+            <param name="index">The index of the <see cref="T:Wisej.Web.Ext.TourPanel.TourStep" /> the event is occurring for.</param>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanelEventArgs.Step">
+            <summary>
+            The <see cref="T:Wisej.Web.Ext.TourPanel.TourStep" /> the event is occurring for.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourPanelEventArgs.StepIndex">
+            <summary>
+            The index of the <see cref="T:Wisej.Web.Ext.TourPanel.TourStep" /> the event is occurring for.
+            </summary>
+        </member>
+        <member name="T:Wisej.Web.Ext.TourPanel.TourPanelEventHandler">
+            <summary>
+            Represents the method that will handle the 
+            <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.BeforeStep" />,
+            <see cref="E:Wisej.Web.Ext.TourPanel.TourPanel.AfterStep" />
+            events.
+            </summary>
+            <param name="sender">The source of the event. </param>
+            <param name="e">A <see cref="T:Wisej.Web.Ext.TourPanel.TourPanelEventArgs" /> that contains the event data. </param>
+        </member>
+        <member name="T:Wisej.Web.Ext.TourPanel.TourStep">
+            <summary>
+            Represents a steps in a <see cref="N:Wisej.Web.Ext.TourPanel"/>.
+            </summary>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourStep.Show">
+            <summary>
+            Fired when the step is shown.
+            </summary>
+        </member>
+        <member name="E:Wisej.Web.Ext.TourPanel.TourStep.Hide">
+            <summary>
+            Fired when the step is hidden.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourStep.OnShow(System.EventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourStep.Show"/> event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourStep.OnHide(System.EventArgs)">
+            <summary>
+            Fires the <see cref="E:Wisej.Web.Ext.TourPanel.TourStep.Hide"/> event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Tour">
+            <summary>
+            Returns the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/> that owns
+            this <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/>.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Title">
+            <summary>
+            Returns or sets the title to display in the
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Text">
+            <summary>
+            Returns or sets the HTML text to display in the
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Tag">
+            <summary>
+            Returns or sets user-defined data associated with the step.
+            </summary>
+            <returns>An object representing the data.</returns>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.UserData">
+            <summary>
+            Returns a dynamic object that can be used to store custom data in relation to this component.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Enabled">
+            <summary>
+            Enables or disables the step. When a step is disabled it is
+            skipped from the rotation.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.TargetName">
+            <summary>
+            Identifies the target control within the
+            parent of the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>.
+            </summary>
+            <remarks>
+            <para>
+            The value of the TargetName property uses the following syntax:
+            controlName.childControlName.childControlName, etc.
+            </para>
+            <para>
+            Nested controls can be reached by specifying the full path. For example, the button child of a panel
+            can be identified as "panel1.button1".
+            </para>
+            <para>
+            Child widgets (widgets that compose more complex widget) can be reached using the slash separator and the
+            name of the child widget. For example, the tools added to a control that supports tools can be reached as
+            "textBox1/tools".
+            </para>
+            <para>
+            Child widgets that are part of the children collection on the client can be reached using the "[]" syntax.
+            For example, the first tool in a tools widget is addressable as "textBox1/tools[0]".
+            </para>
+            </remarks>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Target">
+            <summary>
+            Returns or sets the target for the step. The object can be a reference to a control, a component, or
+            a string with the numeric ID (the <see cref="P:Wisej.Web.Control.Handle"/>) of the target.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.TargetComponent">
+            <summary>
+            Reference to target component. Needed to "uncover" the target
+            before the step. Cannot use the Target property because
+            it may be transformed to a string path.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.AllowPointerEvents">
+            <summary>
+            Returns or sets a value indicating whether pointer events are allowed
+            on the current target.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.AutoPlayTime">
+            <summary>
+            Returns or sets the number of seconds to wait before
+            showing the next step when the TourPanel is auto playing the steps.
+            The default value is 0 to use the time set in the 
+            <see cref="P:Wisej.Web.Ext.TourPanel.TourPanel.DefaultAutoPlayTime"/> property.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            When the value is less than 0.
+            </exception>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Alignment">
+            <summary>
+            Returns or sets the alignment side and position of the 
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>
+            when this 
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/> is shown.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Offset">
+            <summary>
+            Returns or sets the offset in pixels of the calculated position of the
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/> when this 
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/> is shown.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.ShowClose">
+            <summary>
+            Determines whether the 
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>
+            shows the <see cref="F:Wisej.Web.Ext.TourPanel.TourPanel.CloseButton"/> and <see cref="F:Wisej.Web.Ext.TourPanel.TourPanel.ExitButton"/> buttons when showing this
+            <see cref="T:Wisej.Web.Ext.TourPanel.TourStep"/>.
+            </summary>
+            <remarks>
+            The <see cref="F:Wisej.Web.Ext.TourPanel.TourPanel.ExitButton"/> is always shown on the last step.
+            </remarks>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.IsVisible">
+            <summary>
+            Returns true when this step is currently visible on
+            the <see cref="T:Wisej.Web.Ext.TourPanel.TourPanel"/>.
+            </summary>
+        </member>
+        <member name="P:Wisej.Web.Ext.TourPanel.TourStep.Index">
+            <summary>
+            Returns the index of this step in the 
+            <see cref="P:Wisej.Web.Ext.TourPanel.TourPanel.Steps"/> list.
+            </summary>
+        </member>
+        <member name="M:Wisej.Web.Ext.TourPanel.TourStep.ToString">
+            <summary>
+            Returns a string representation of this object.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

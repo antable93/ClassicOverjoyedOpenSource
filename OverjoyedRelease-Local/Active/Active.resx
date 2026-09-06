@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="quadrantsSVG.Html" xml:space="preserve">
+    <value>    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Barlow', sans-serif;
+            background: #f5f5f5;
+            color: #333333;
+            padding: 20px;
+        }
+        
+        .warning-banner {
+            background: #ff4444;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        
+        .warning-banner.show {
+            display: block;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+            color: #333333;
+            font-weight: 700;
+            font-size: 32px;
+        }
+        
+        .controls {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        button {
+            background: #FF6C37;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s;
+            font-family: 'Barlow', sans-serif;
+        }
+        
+        button:hover {
+            background: #ff8555;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(255, 108, 55, 0.3);
+        }
+        
+        button:disabled {
+            background: #666;
+            cursor: not-allowed;
+        }
+        
+        #togglePreviewBtn {
+            background: #333333;
+        }
+        
+        #togglePreviewBtn:not(:disabled):hover {
+            background: #444444;
+        }
+        
+        .status {
+            background: #1a1a1a;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            font-family: 'Courier New', monospace;
+        }
+        
+        .status-item {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+        
+        .status-label {
+            font-weight: 400;
+            color: #ffffff;
+        }
+        
+        .status-value {
+            color: #ffffff;
+            font-weight: 400;
+        }
+        
+        .canvas-container {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        #gazeCanvas {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .gaze-cursor {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #ff4444;
+            border: 2px solid white;
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: left 0.05s, top 0.05s;
+            box-shadow: 0 0 10px rgba(255, 68, 68, 0.8);
+        }
+        
+        .info {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+            line-height: 1.8;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .info h2 {
+            margin-bottom: 15px;
+            margin-top: 20px;
+            color: #333333;
+            font-weight: 700;
+        }
+        
+        .info h2:first-child {
+            margin-top: 0;
+        }
+        
+        code {
+            background: #f0f0f0;
+            padding: 3px 8px;
+            border-radius: 4px;
+            color: #333333;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .logo {
+            height: 40px;
+            width: auto;
+        }
+        
+        .header h1 {
+            margin: 0;
+        }
+    &lt;/style&gt;
+
+    &lt;div class="warning-banner" id="warningBanner"&gt;
+        ⚠️ ERROR: This page must be run through a web server (e.g., python3 -m http.server 8888), not opened directly as a file!
+    &lt;/div&gt;
+    
+    &lt;div class="container"&gt;
+        &lt;div class="header"&gt;
+            &lt;h1&gt;Eye-Tracking SDK Example Page&lt;/h1&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="controls"&gt;
+            &lt;button id="requestCameraBtn"&gt;1. Request Camera&lt;/button&gt;
+            &lt;button id="initializeBtn" disabled&gt;2. Initialize SDK&lt;/button&gt;
+            &lt;button id="calibrateBtn" disabled&gt;3. Start Calibration&lt;/button&gt;
+            &lt;button id="togglePreviewBtn" disabled&gt;Show Gaze Preview&lt;/button&gt;
+            &lt;button id="pauseBtn" disabled&gt;Pause&lt;/button&gt;
+            &lt;button id="resumeBtn" disabled&gt;Resume&lt;/button&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="status"&gt;
+            &lt;div class="status-item"&gt;
+                &lt;span class="status-label"&gt;SDK Version:&lt;/span&gt;
+                &lt;span class="status-value" id="versionValue"&gt;-&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="status-item"&gt;
+                &lt;span class="status-label"&gt;Camera Status:&lt;/span&gt;
+                &lt;span class="status-value" id="cameraStatus"&gt;Not initialized&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="status-item"&gt;
+                &lt;span class="status-label"&gt;SDK Status:&lt;/span&gt;
+                &lt;span class="status-value" id="sdkStatus"&gt;Not initialized&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="status-item"&gt;
+                &lt;span class="status-label"&gt;Calibration Status:&lt;/span&gt;
+                &lt;span class="status-value" id="calibrationStatus"&gt;Not calibrated&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="status-item"&gt;
+                &lt;span class="status-label"&gt;Tracking Status:&lt;/span&gt;
+                &lt;span class="status-value" id="trackingStatus"&gt;Inactive&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="status-item"&gt;
+                &lt;span class="status-label"&gt;Current Gaze:&lt;/span&gt;
+                &lt;span class="status-value" id="gazeValue"&gt;-&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="info"&gt;
+            &lt;h2&gt;API Usage:&lt;/h2&gt;
+            &lt;p&gt;
+                &lt;code&gt;const sdk = new RealEyeSDK();&lt;/code&gt;&lt;br&gt;
+                &lt;code&gt;await sdk.requestCamera();&lt;/code&gt;&lt;br&gt;
+                &lt;code&gt;await sdk.initialize();&lt;/code&gt;&lt;br&gt;
+                &lt;code&gt;await sdk.startCalibration();&lt;/code&gt;&lt;br&gt;
+                &lt;code&gt;const gaze = sdk.getCurrentGaze(); // {x, y} in [-1, 1]&lt;/code&gt;&lt;br&gt;
+                &lt;code&gt;sdk.onGazeUpdate((x, y) =&gt; { ... });&lt;/code&gt;&lt;br&gt;
+                &lt;code&gt;sdk.pause(); sdk.resume();&lt;/code&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;!-- Load RealEye SDK --&gt;
+    &lt;script src="http://localhost:50001/configs/realeye-sdk.min.js"&gt;&lt;/script&gt;
+    
+    &lt;script type="text/javascript"&gt;
+        // Check if running from file:// protocol
+        if (window.location.protocol === 'file:') {
+            document.getElementById('warningBanner').classList.add('show');
+        }
+
+alert('hi');
+        
+        let sdk = null;
+        let gazePreviewEnabled = false;
+        
+        // UI Elements
+        const requestCameraBtn = document.getElementById('requestCameraBtn');
+        const initializeBtn = document.getElementById('initializeBtn');
+        const calibrateBtn = document.getElementById('calibrateBtn');
+        const pauseBtn = document.getElementById('pauseBtn');
+        const resumeBtn = document.getElementById('resumeBtn');
+        const togglePreviewBtn = document.getElementById('togglePreviewBtn');
+        
+        const versionValue = document.getElementById('versionValue');
+        const cameraStatus = document.getElementById('cameraStatus');
+        const sdkStatus = document.getElementById('sdkStatus');
+        const calibrationStatus = document.getElementById('calibrationStatus');
+        const trackingStatus = document.getElementById('trackingStatus');
+        const gazeValue = document.getElementById('gazeValue');
+        
+        // Request Camera
+        requestCameraBtn.onclick = async () =&gt; {
+            try {
+                requestCameraBtn.disabled = true;
+                cameraStatus.textContent = 'Requesting...';
+                
+                sdk = new RealEyeSDK();
+                versionValue.textContent = sdk.version;
+                
+                await sdk.requestCamera();
+                
+                cameraStatus.textContent = 'Ready';
+                initializeBtn.disabled = false;
+                
+            } catch (error) {
+                console.error('Camera request failed:', error);
+                cameraStatus.textContent = 'Failed: ' + error.message;
+                requestCameraBtn.disabled = false;
+            }
+        };
+        
+        // Initialize SDK
+        initializeBtn.onclick = async () =&gt; {
+            try {
+                initializeBtn.disabled = true;
+                sdkStatus.textContent = 'Loading models...';
+                
+                await sdk.initialize();
+                
+                sdkStatus.textContent = 'Ready';
+                calibrateBtn.disabled = false;
+                
+            } catch (error) {
+                console.error('Initialization failed:', error);
+                sdkStatus.textContent = 'Failed: ' + error.message;
+                initializeBtn.disabled = false;
+            }
+        };
+        
+        // Start Calibration
+        calibrateBtn.onclick = async () =&gt; {
+            try {
+                calibrateBtn.disabled = true;
+                calibrationStatus.textContent = 'Calibrating...';
+                
+                await sdk.startCalibration({
+                    onProgress: (current, total) =&gt; {
+                        calibrationStatus.textContent = `Calibrating (${current}/${total})...`;
+                    },
+                    onComplete: () =&gt; {
+                        calibrationStatus.textContent = 'Calibrated ✓';
+                        trackingStatus.textContent = 'Active';
+                        pauseBtn.disabled = false;
+                        resumeBtn.disabled = true;
+                        togglePreviewBtn.disabled = false;
+                        
+                        // Auto-enable gaze preview after calibration
+                        gazePreviewEnabled = true;
+                        sdk.toggleGazePreview(true);
+                        togglePreviewBtn.textContent = 'Hide Gaze Preview';
+                    }
+                });
+                
+                // Subscribe to gaze updates
+                sdk.onGazeUpdate((x, y) =&gt; {
+                    // Update status
+                    gazeValue.textContent = `x: ${x.toFixed(3)}, y: ${y.toFixed(3)}`;
+                });
+                
+            } catch (error) {
+                console.error('Calibration failed:', error);
+                calibrationStatus.textContent = 'Failed: ' + error.message;
+                calibrateBtn.disabled = false;
+            }
+        };
+        
+        // Pause
+        pauseBtn.onclick = () =&gt; {
+            sdk.pause();
+            trackingStatus.textContent = 'Paused';
+            pauseBtn.disabled = true;
+            resumeBtn.disabled = false;
+        };
+        
+        // Resume
+        resumeBtn.onclick = () =&gt; {
+            sdk.resume();
+            trackingStatus.textContent = 'Active';
+            resumeBtn.disabled = true;
+            pauseBtn.disabled = false;
+        };
+        
+        // Toggle Gaze Preview
+        togglePreviewBtn.onclick = () =&gt; {
+            gazePreviewEnabled = !gazePreviewEnabled;
+            sdk.toggleGazePreview(gazePreviewEnabled);
+            togglePreviewBtn.textContent = gazePreviewEnabled 
+                ? 'Hide Gaze Preview' 
+                : 'Show Gaze Preview';
+        };
+        
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', () =&gt; {
+            if (sdk) {
+                sdk.destroy();
+            }
+        });
+    &lt;/script&gt;</value>
+  </data>
+  <data name="combineDiagram.Html" xml:space="preserve">
+    <value>&lt;style&gt;
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  .segment2 { stroke-width: 6; fill: none; shape-rendering: geometricPrecision; }
+  #upperDZ-inactive2, #lowerDZ2 { stroke: white; }
+  #middleDZ-outer2, #upperDZ-active2, #middleDZ-inner2 { stroke: none; }
+  #line1b, #line2b, #line3b, #line4b, #line5b, #line6b, #line7b, #line8b { stroke: white; }
+  #outerDiagram {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  #outerDiagram svg {
+    margin-top:-20%;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  text {
+    fill: rgb(0, 167, 209);
+    font-size: 16px;
+    font-weight:bold;
+    font-family: Arial, sans-serif;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    pointer-events: none;
+  }
+  #translations { display: none; }
+.text-bg {
+    fill: black;
+    rx: 4; /* rounded corners */
+    ry: 4;
+    opacity: 0.8; /* optional slight transparency */
+  }
+&lt;/style&gt;
+
+&lt;!-- Hidden translation div --&gt;
+&lt;div id="translations"&gt;
+  &lt;div data-id="text-left-bracket"&gt;Left Bracket&lt;/div&gt;
+  &lt;div data-id="text-equals"&gt;Equals&lt;/div&gt;
+  &lt;div data-id="text-minus"&gt;Minus&lt;/div&gt;
+  &lt;div data-id="text-comma"&gt;Comma&lt;/div&gt;
+  &lt;div data-id="text-apostrophe"&gt;Apostrophe&lt;/div&gt;
+  &lt;div data-id="text-semicolon"&gt;Semicolon&lt;/div&gt;
+  &lt;div data-id="text-backslash"&gt;Backslash&lt;/div&gt;
+  &lt;div data-id="text-right-bracket"&gt;Right Bracket&lt;/div&gt;
+  &lt;div data-id="text-tilde"&gt;Tilde&lt;/div&gt;
+  &lt;div data-id="text-period"&gt;Period&lt;/div&gt;
+  &lt;div data-id="text-left-right-click"&gt;Left Click Actions (+Shift) | Right Click Actions (+Ctrl)&lt;/div&gt;
+  &lt;div data-id="text-toggle"&gt;(use Toggle quadrant action setting to Hold buttons)&lt;/div&gt;
+  &lt;div data-id="text-mouse-move"&gt;Mouse Move Actions&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outerDiagram"&gt;
+  &lt;svg width="100%" height="100%" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"&gt;
+    &lt;defs&gt;
+      &lt;filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"&gt;
+        &lt;feDropShadow dx="5" dy="5" stdDeviation="4" flood-color="black"/&gt;
+      &lt;/filter&gt;
+    &lt;/defs&gt;
+
+    &lt;!-- Radial Lines --&gt;
+    &lt;g transform="translate(300,350)" filter="url(#shadow)"&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment2" id="line1b" transform="rotate(-22.5)" /&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment2" id="line2b" transform="rotate(22.5)" /&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment2" id="line3b" transform="rotate(67.5)" /&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment2" id="line4b" transform="rotate(112.5)" /&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment2" id="line5b" transform="rotate(157.5)" /&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment2" id="line6b" transform="rotate(202.5)" /&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment2" id="line7b" transform="rotate(247.5)" /&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment2" id="line8b" transform="rotate(292.5)" /&gt;
+    &lt;/g&gt;
+
+    &lt;!-- Zones --&gt;
+    &lt;path d="M 240,350 A 60,60 0 0,1 360,350 H 330 A 30,30 0 0,0 270,350 H 240 Z" class="segment2" id="upperDZ-inactive2"  filter="url(#shadow)"/&gt;
+    &lt;path d="M 240,350 A 60,60 0 0,1 360,350 H 330 A 30,30 0 0,0 270,350 H 240 Z" class="segment2" id="lowerDZ2" transform="rotate(180) translate(0 -100)"  style="transform-origin:center;" filter="url(#shadow)"/&gt;
+    &lt;path d="M 240,350 A 60,60 0 1,1 360,350 A 60,60 0 1,1 240,350 M 240,350 H 270 M 330,350 H 360" class="segment2" id="middleDZ-outer2"  filter="url(#shadow)"/&gt;
+    &lt;path d="M 240,350 A 60,60 0 0,1 360,350 H 330 A 30,30 0 0,0 270,350 H 240 Z" class="segment2" id="upperDZ-active2"  filter="url(#shadow)"/&gt;
+    &lt;path d="M 270,350 A 30,30 0 1,1 330,350 A 30,30 0 1,1 270,350 Z" class="segment2" id="middleDZ-inner2"  filter="url(#shadow)"/&gt;
+    &lt;path d="M 265,350 A 35,35 0 1,1 335,350 A 35,35 0 1,1 265,350 Z" class="segment2" id="middleDZ-border2"  style="stroke-width: 2; stroke: none;" filter="url(#shadow)"/&gt;
+
+    &lt;!-- Labels with black background --&gt;
+    &lt;g transform="translate(430,350)"&gt;
+      &lt;rect x="-70" y="-12" width="140" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-left-bracket" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;[&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(400,260)"&gt;
+      &lt;rect x="-60" y="-12" width="120" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-equals" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;=&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(300,220)"&gt;
+      &lt;rect x="-50" y="-12" width="100" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-minus" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;-&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(210,260)"&gt;
+      &lt;rect x="-50" y="-12" width="100" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-comma" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;,&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(175,350)"&gt;
+      &lt;rect x="-60" y="-12" width="120" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-apostrophe" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;'&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(200,435)"&gt;
+      &lt;rect x="-60" y="-12" width="120" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-semicolon" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;;&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(300,470)"&gt;
+      &lt;rect x="-60" y="-12" width="120" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-backslash" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;\&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(420,450)"&gt;
+      &lt;rect x="-70" y="-12" width="140" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-right-bracket" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;]&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(300,393)"&gt;
+      &lt;rect x="-50" y="-12" width="100" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-tilde" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:Verdana;font-size:26px;"&gt;~&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+ &lt;g transform="translate(300,350)"&gt;
+      &lt;rect x="-50" y="-12" width="100" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:ui-rounded;font-size:26px;"&gt;/&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(300,310)"&gt;
+      &lt;rect x="-50" y="-12" width="100" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-period" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;
+        &lt;tspan style="font-family:ui-rounded;font-size:26px;"&gt;.&lt;/tspan&gt;
+      &lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(300,550)"&gt;
+      &lt;rect x="-180" y="-12" width="360" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-left-right-click" style="font-size: 15px;" x="0" y="0" text-anchor="middle" dominant-baseline="middle"&gt;&lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(300,580)"&gt;
+      &lt;rect x="-180" y="-12" width="360" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-toggle" x="0" y="0"  style="font-size: 15px;" text-anchor="middle" dominant-baseline="middle"&gt;&lt;/text&gt;
+    &lt;/g&gt;
+
+    &lt;g transform="translate(300,150)"&gt;
+      &lt;rect x="-120" y="-12" width="240" height="24" class="text-bg"&gt;&lt;/rect&gt;
+      &lt;text data-id="text-mouse-move" x="0" y="0"  style="font-size: 20px;" text-anchor="middle" dominant-baseline="middle"&gt;&lt;/text&gt;
+    &lt;/g&gt;
+
+  &lt;/svg&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="stylesActive.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="stylesActive.Styles" xml:space="preserve">
+    <value>[class*='qx-slider-knob-horizontal']{background-color:rgb(0, 167, 209)!important;} div[name='advancedPanel'] {margin-left:-4%!important;}
+div[name='pnlBaseOverlay'], div[name='pnlPrompts'], .qx-panel-horizontal-barTop-borderNone {border-radius:0px!important;}
+#gt_float_wrapper{display:none!important;} div[name='html'] svg {width:100%!important;height:100%!important;} .segment { stroke-width: 8; fill: none;shape-rendering: geometricPrecision; }
+   #upperDZ-inactive { stroke:white; }
+   #lowerDZ { stroke:white; }
+       #middleDZ-outer { stroke:none; }
+       #upperDZ-active { stroke:none; }
+       #middleDZ-inner { stroke:none; }
+       #line1 { stroke: white; } #line2 { stroke: white; }  #line3 { stroke: white; } #line4 { stroke: white; }   #line5 { stroke: white; } #line6 { stroke: white; } #line7 { stroke: white; }  #line8 { stroke: white; }
+.screen-container { position: relative;
+            overflow: hidden;
+            background: transparent;  }
+        .marquee-outer { overflow: hidden; position: relative;
+  vertical-align: middle;
+  text-align: center; /* center content initially */}
+.marquee-inner {  display: inline-flex; transform: translateX(0); will-change: transform;}
+.marquee-inner  span:nth-child(2) {
+  display: inline-block;
+  padding-left:20%;visibility:hidden;
+}.marquee-inner:hover  span:nth-child(2) {visibility:visible;
+} /* scrolling effect on hover */
+.marquee-outer:hover .marquee-inner {  animation: scroll-left 8s linear infinite;} @keyframes scroll-left {  0%   { transform: translateX(0); } 100% { transform: translateX(-50%); }}
+.truncate{  overflow: hidden; 
+  display: -webkit-inline-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;}
+
+        .screen {
+            position: absolute;
+            object-fit: contain;
+            transition: width 0.3s, height 0.3s; /* Smooth resizing */
+        }
+        .screenshare{position:absolute;z-index:-99999;}
+
+div[name="close-button"]{display:none!important;}
+
+.qx-checkbox-icon{background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNGRkZGRkYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImNvbG9yOiByZ2IoMjU1LCAyNTUsIDI1NSk7IGZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsiPgogICAgPHBhdGggZD0iTTE5IDV2MTRINVY1aDE0bTAtMkg1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6IiBmaWxsPSIjRkZGRkZGIi8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPg==)!important;}
+
+.qx-checkbox-icon-checked{background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNGRkZGRkYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImNvbG9yOiByZ2IoMjU1LCAyNTUsIDI1NSk7IGZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsiPgogICAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnpNMTAgMTdsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiIGZpbGw9IiNGRkZGRkYiLz4KPC9zdmc+)!important;}
+
+.ActiveZone {
+  -webkit-animation: blink 2s infinite alternate;
+  animation: blink 2s infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  100% {
+    box-shadow: 0 0 10px #0ba9ca,
+      0 0 20px #0ba9ca, 0 0 40px #0ba9ca;
+  }
+}
+
+@keyframes blink {
+  100% {
+    box-shadow: 0 0 10px #0ba9ca,
+      0 0 20px #0ba9ca, 0 0 40px #0ba9ca;
+  }
+}
+
+</value>
+  </data>
+  <data name="pnlBaseOverlay.Html" xml:space="preserve">
+    <value>&lt;style&gt;
+#safeZone{visibility:hidden;}
+
+/* IMPORTANT: allow mouse events to pass through SVG */
+#outerSVG {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  --overjoyed-prompt-radius: 10px;
+  --overjoyed-prompt-shadow: 5px 5px 8px black;
+  --overjoyed-prompt-label-font: 12px;
+  --overjoyed-prompt-eye-font: 24px;
+  --overjoyed-prompt-label-padding-y: 0.8333%;
+  --overjoyed-active-height: 5.5%;
+  --overjoyed-active-font: 2.8vw;
+  --overjoyed-active-border: 2px;
+  --overjoyed-active-top: 55.1667%;
+  --overjoyed-exit-border: 2px;
+  --overjoyed-exit-upper-min-width: 19.6667%;
+  --overjoyed-exit-upper-min-height: 8.3333%;
+  --overjoyed-exit-upper-padding: 1% 2.5% 1.8333% 2.5%;
+  --overjoyed-exit-middle-min-width: 19.6667%;
+  --overjoyed-exit-middle-min-height: 7.6667%;
+  --overjoyed-exit-lower-min-width: 19.6667%;
+  --overjoyed-exit-lower-min-height: 8.3333%;
+  --overjoyed-exit-arc-font: 14px;
+  --overjoyed-exit-arc-letter-spacing: 1.2px;
+  --overjoyed-cursor-size: 40px;
+  --overjoyed-cursor-inset: 7.5%;
+  --overjoyed-cursor-inner-border: 2px;
+  --overjoyed-cursor-shadow-blur: 6px;
+}
+
+#outerSVG svg {
+  pointer-events: none;
+}
+
+/* Prompt layer */
+#promptsLayer {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+
+#activationPromptLabelsLayer {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  pointer-events: none;
+}
+
+#lblActiveOverlay {
+  position: absolute;
+  left: 0;
+  top: var(--overjoyed-active-top);
+  width: 100%;
+  min-height: 6.5%;
+  height: auto;
+  font-size: var(--overjoyed-active-font);
+  line-height: 1.25;
+  border-top: var(--overjoyed-active-border) solid rgb(0, 167, 209);
+  border-bottom: var(--overjoyed-active-border) solid rgb(0, 167, 209);
+  font-family: Microsoft Sans Serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.9% 2%;
+  font-weight: 600;
+  color: white;
+  background: black;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  cursor: default;
+  box-sizing: border-box;
+  z-index: 40;
+}
+
+#lblActiveOverlay[hidden] {
+  display: none !important;
+}
+
+#lblActiveOverlay.overjoyed-active-state-inactive {
+  top: var(--overjoyed-active-top);
+  bottom: auto;
+  pointer-events: none;
+  background: black;
+}
+
+#lblActiveOverlay.overjoyed-active-state-active {
+  top: auto;
+  bottom: 0;
+  pointer-events: auto;
+  background: rgb(0, 167, 209);
+}
+
+.prompt-box {
+  position: absolute;
+  width: 8.3333%;
+  height: 8.3333%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 20%;
+  box-shadow: var(--overjoyed-prompt-shadow);
+  overflow: hidden;
+  z-index: 10;
+  display: none;
+}
+
+.prompt-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.prompt-label {
+  position: absolute;
+  width: 8.3333%;
+  min-height: 5%;
+  transform: translate(-50%, -50%);
+  padding: var(--overjoyed-prompt-label-padding-y) 0;
+  background: white;
+  color: black;
+  border-radius: 20%;
+  box-shadow: var(--overjoyed-prompt-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: var(--overjoyed-prompt-label-font);
+  line-height: 1;
+  white-space: nowrap;
+  z-index: 20;
+  display: none;
+  overflow: hidden;
+}
+
+.prompt-label.overjoyed-eye-label {
+  font-size: var(--overjoyed-prompt-eye-font);
+}
+
+.prompt-box .prompt-fill {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: transparent;
+  opacity: 0.92;
+  pointer-events: none;
+  z-index: 0;
+  transition: background-image 40ms linear;
+}
+
+.prompt-box img {
+  position: relative;
+  z-index: 1;
+}
+
+.prompt-box.overjoyed-highlighted,
+.prompt-label.overjoyed-highlighted:not(.exit-hold-label) {
+  background: rgb(0, 167, 209) !important;
+  color: white !important;
+}
+
+.prompt-label.exit-hold-label {
+  z-index: 40;
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  background-color: black !important;
+  color: white !important;
+  border: var(--overjoyed-exit-border) solid rgb(0, 167, 209);
+  font-weight: 700;
+  padding: 1% 2%;
+  border-radius: 999%;
+  line-height: 1.2;
+  visibility: hidden;
+}
+
+.prompt-label.exit-hold-label .exit-hold-text {
+  position: relative;
+  z-index: 1;
+}
+
+.prompt-label.exit-hold-label .exit-hold-text.exit-hold-multiline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.05;
+  text-align: center;
+  white-space: normal;
+}
+
+.prompt-label.exit-hold-label .exit-hold-arc {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.prompt-label.exit-hold-label .exit-hold-arc text {
+  fill: white;
+  font-size: var(--overjoyed-exit-arc-font);
+  font-weight: 700;
+  letter-spacing: var(--overjoyed-exit-arc-letter-spacing);
+  dominant-baseline: middle;
+  alignment-baseline: middle;
+}
+
+.prompt-label.exit-hold-label.exit-hold-upper {
+  min-width: var(--overjoyed-exit-upper-min-width);
+  min-height: var(--overjoyed-exit-upper-min-height);
+  top: 53.5% !important;
+  padding: var(--overjoyed-exit-upper-padding);
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  clip-path: polygon(50% 0, 76% 10%, 90% 30%, 100% 58%, 100% 100%, 0 100%, 0 58%, 10% 30%, 24% 10%);
+  border-radius: 0;
+}
+
+.prompt-label.exit-hold-label.exit-hold-upper .exit-hold-arc {
+  inset: auto;
+  left: 0;
+  top: 43.5%;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-50%);
+}
+
+.prompt-label.exit-hold-label.exit-hold-middle {
+  min-width: var(--overjoyed-exit-middle-min-width);
+  min-height: var(--overjoyed-exit-middle-min-height);
+  padding: 0;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+}
+
+.prompt-label.exit-hold-label.exit-hold-lower {
+  min-width: var(--overjoyed-exit-lower-min-width);
+  min-height: var(--overjoyed-exit-lower-min-height);
+  top: 62.5% !important;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  clip-path: polygon(78.32% 3.55%, 76.57% 15.60%, 72.38% 29.79%, 64.69% 43.97%, 57.00% 52.48%, 41.96% 50.35%, 32.17% 39.72%, 24.48% 17.73%, 22.38% 0%, 2.80% 0%, 0% 0.71%, 3.50% 42.55%, 10.14% 59.57%, 13.99% 75.89%, 25.52% 88.65%, 32.87% 100%, 48.25% 99.29%, 61.89% 96.45%, 80.42% 82.98%, 92.31% 51.06%, 100% 0%);
+  border-radius: 0;
+}
+
+.prompt-label.exit-hold-label.exit-hold-lower .exit-hold-arc {
+  inset: auto;
+  left: 0;
+  top: 62.5%;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-50%);
+}
+
+@keyframes overjoyedLblActiveHoldFill {
+  from { background-size: 0% 100%; }
+  to { background-size: 100% 100%; }
+}
+
+#lblActiveOverlay.overjoyed-lblactive-hold-fill {
+  background-image: linear-gradient(90deg, rgb(0, 167, 209) 0%, rgb(0, 167, 209) 100%);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 0% 100%;
+  animation: overjoyedLblActiveHoldFill 2000ms linear forwards;
+}
+
+/* Mouse Cursor */
+#cursorSquare {
+  position: absolute;
+  width: var(--overjoyed-cursor-size);
+  height: var(--overjoyed-cursor-size);
+  pointer-events: none;
+  z-index: 30;
+}
+
+#cursorBorder {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 var(--overjoyed-cursor-shadow-blur) rgba(0,0,0,0.6);
+}
+
+#cursorDot {
+  position: absolute;
+  inset: var(--overjoyed-cursor-inset);
+  border-radius: 50%;
+  background: rgb(0, 167, 209);
+  border: var(--overjoyed-cursor-inner-border) solid black;
+}
+
+/* Socket Cursor */
+#socketSquare {
+  position: absolute;
+  width: var(--overjoyed-cursor-size);
+  height: var(--overjoyed-cursor-size);
+  pointer-events: none;
+  z-index: 30;
+  visibility: hidden;
+}
+
+#socketBorder {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 var(--overjoyed-cursor-shadow-blur) rgba(0,0,0,0.6);
+}
+
+#socketDot {
+  position: absolute;
+  inset: var(--overjoyed-cursor-inset);
+  border-radius: 50%;
+  background: rgb(0, 167, 209);
+  border: var(--overjoyed-cursor-inner-border) solid black;
+}
+
+#socketSquare.glow-left, #socketSquare.glow-right, #cursorSquare.glow-left, #cursorSquare.glow-right {
+  transform: scale(1.15);
+}
+
+#socketSquare.glow-left #socketDot, #cursorSquare.glow-left #cursorDot {
+  background: white;
+}
+
+#socketSquare.glow-right #socketDot, #cursorSquare.glow-right #cursorDot {
+  background: black;
+}
+&lt;/style&gt;
+
+&lt;div id="outerSVG"&gt;
+  &lt;svg viewBox="0 0 600 600" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"&gt;
+    &lt;defs&gt;
+      &lt;filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"&gt;
+        &lt;feDropShadow dx="5" dy="5" stdDeviation="4" flood-color="black"/&gt;
+      &lt;/filter&gt;
+    &lt;/defs&gt;
+
+    &lt;circle id="safeZone" cx="300" cy="350" r="95" fill="none" stroke="rgb(0, 167, 209)" stroke-width="3" stroke-dasharray="4,4" filter="url(#shadow)" /&gt;
+
+    &lt;g transform="translate(300,350)" filter="url(#shadow)"&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment" id="line1" transform="rotate(-22.5)"/&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment" id="line2" transform="rotate(22.5)"/&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment" id="line3" transform="rotate(67.5)"/&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment" id="line4" transform="rotate(112.5)"/&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment" id="line5" transform="rotate(157.5)"/&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment" id="line6" transform="rotate(202.5)"/&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment" id="line7" transform="rotate(247.5)"/&gt;
+      &lt;line x1="0" y1="-63" x2="0" y2="-180" class="segment" id="line8" transform="rotate(292.5)"/&gt;
+    &lt;/g&gt;
+
+    &lt;path d="M 240,350 A 60,60 0 0,1 360,350 H 330 A 30,30 0 0,0 270,350 H 240 Z" class="segment" id="upperDZ-inactive" filter="url(#shadow)"/&gt;
+    &lt;path d="M 240,350 A 60,60 0 0,1 360,350 H 330 A 30,30 0 0,0 270,350 H 240 Z" class="segment" id="lowerDZ" transform="rotate(180) translate(0 -100)" style="transform-origin:center;" filter="url(#shadow)"/&gt;
+    &lt;path d="M 240,350 A 60,60 0 1,1 360,350 A 60,60 0 1,1 240,350 M 240,350 H 270 M 330,350 H 360" class="segment" id="middleDZ-outer" filter="url(#shadow)"/&gt;
+    &lt;path d="M 240,350 A 60,60 0 0,1 360,350 H 330 A 30,30 0 0,0 270,350 H 240 Z" class="segment" id="upperDZ-active" filter="url(#shadow)"/&gt;
+    &lt;path d="M 270,350 A 30,30 0 1,1 330,350 A 30,30 0 1,1 270,350 Z" class="segment" id="middleDZ-inner" filter="url(#shadow)"/&gt;
+    &lt;path d="M 265,350 A 35,35 0 1,1 335,350 A 35,35 0 1,1 265,350 Z" class="segment" id="middleDZ-border" style="stroke-width: 2; stroke: none;" filter="url(#shadow)"/&gt;
+  &lt;/svg&gt;
+
+  &lt;div id="lblActiveOverlay" class="ActiveZone"&gt;&lt;/div&gt;
+
+  &lt;div id="promptsLayer"&gt;
+    &lt;div class="prompt-box" data-slot="0"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="1"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="2"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="3"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="4"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="5"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="6"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="7"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="8"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="9"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="10"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="11"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="12"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="13"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="14"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+    &lt;div class="prompt-box" data-slot="15"&gt;&lt;div class="prompt-fill"&gt;&lt;/div&gt;&lt;img draggable="false" /&gt;&lt;/div&gt;
+
+    &lt;div class="prompt-label" data-slot="0"&gt;&lt;/div&gt;
+    &lt;div class="prompt-label" data-slot="1"&gt;&lt;/div&gt;
+    &lt;div class="prompt-label" data-slot="2"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div id="activationPromptLabelsLayer"&gt;
+    &lt;div class="prompt-label exit-hold-label exit-hold-upper" data-slot="0"&gt;
+      &lt;svg class="exit-hold-arc" viewBox="240 290 120 60" preserveAspectRatio="none" aria-hidden="true"&gt;
+        &lt;defs&gt;
+          &lt;path id="exitHoldArc-0" d="M 255,350 A 45,45 0 0,1 345,350" /&gt;
+        &lt;/defs&gt;
+        &lt;text&gt;&lt;textPath href="#exitHoldArc-0" startOffset="50%" text-anchor="middle"&gt;EXIT (Hold)&lt;/textPath&gt;&lt;/text&gt;
+      &lt;/svg&gt;
+    &lt;/div&gt;
+    &lt;div class="prompt-label exit-hold-label exit-hold-middle" data-slot="1"&gt;
+      &lt;span class="exit-hold-text exit-hold-multiline"&gt;EXIT&lt;br/&gt;(Hold)&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="prompt-label exit-hold-label exit-hold-lower" data-slot="2"&gt;
+      &lt;svg class="exit-hold-arc" viewBox="240 350 120 60" preserveAspectRatio="none" aria-hidden="true"&gt;
+        &lt;defs&gt;
+          &lt;path id="exitHoldArc-2" d="M 255,350 A 45,45 0 0,0 345,350" /&gt;
+        &lt;/defs&gt;
+        &lt;text&gt;&lt;textPath href="#exitHoldArc-2" startOffset="50%" text-anchor="middle"&gt;EXIT (Hold)&lt;/textPath&gt;&lt;/text&gt;
+      &lt;/svg&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- MouseCursor --&gt;
+  &lt;div id="cursorSquare"&gt;
+    &lt;div id="cursorBorder"&gt;&lt;/div&gt;
+    &lt;div id="cursorDot"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Socket Cursor --&gt;
+  &lt;div id="socketSquare"&gt;
+    &lt;div id="socketBorder"&gt;&lt;/div&gt;
+    &lt;div id="socketDot"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</value>
+  </data>
+</root>

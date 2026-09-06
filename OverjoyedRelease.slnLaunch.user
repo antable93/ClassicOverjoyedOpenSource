@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "OverjoyedRelease-Client\\OverjoyedReleaseClient.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "HybridClient1\\HybridClient1.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
