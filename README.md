@@ -2,9 +2,11 @@
 
 ## Review-only source
 
-This code is provided for review only. It is intended to inspire new features for the new Overjoyed Accessible Control Hub and is not expected to build easily.
+This code is provided for review only. It is intended to inspire new features for the new [Overjoyed Accessible Control Hub](https://github.com/antable93/OverjoyedAccessibleControlHub) and is not expected to build easily.
 
 To try a build version, install **Overjoyed Accessible Gaming** from the Microsoft Store.
+
+For more information, visit [getoverjoyed.com](https://getoverjoyed.com) or join our [Discord](https://discord.gg/yUaPn4s5pD)!
 
 ## OverjoyedRelease-Local/Active/
 
