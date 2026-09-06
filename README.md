@@ -1,4 +1,4 @@
-# ClassicOverjoyedOpenSource
+# Classic Overjoyed (Open Source)
 
 ## Review-only source
 
